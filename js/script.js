@@ -21,6 +21,7 @@ console.log('JS OK');
 //Predndo Id 
 const list = document.getElementById('recipe-numbers');
 
+
 // Creo la variabile in cui ci andro a scrivere 
 let items = '';
 

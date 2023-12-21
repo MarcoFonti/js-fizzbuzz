@@ -9,36 +9,41 @@
 /* Colore Recipiente della contenitore lista */
 .recipe-list {
     background-color: #083B4C;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 /* Recipiente dei li*/
-.recipe-numbers {
+#recipe-numbers {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     width: 900px;
+    
 }
 
 /* li dentro */
-.recipe-numbers li {
+ul li {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: calc(900px / 7);
-    height: calc(900px / 7);
+    width: calc(100% / 7);
+    height: 100px;
     background-color: var(--colorePrincipale);
     border: 2px solid #000000;
     text-transform: capitalize;
 }
 
-li.fizz {
+.fizz {
     background-color: #0BD6A1;
 }
 
-li.buzz {
+.buzz {
     background-color: #FFD166;
 }
 
-li.fizzbuzz {
+.fizzbuzz {
     background-color: #F0466F;
 }
