@@ -1,0 +1,44 @@
+/* Colori */
+:root {
+    --colorePrincipale: #1389B2;
+    --coloreFizz: #0BD6A1;
+    --coloreBuzz: #FFD166;
+    --coloreFizzBuzz: #F0466F;
+}
+
+/* Colore Recipiente della contenitore lista */
+.recipe-list {
+    background-color: #083B4C;
+}
+
+/* Recipiente dei li*/
+.recipe-numbers {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    width: 900px;
+}
+
+/* li dentro */
+.recipe-numbers li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: calc(900px / 7);
+    height: calc(900px / 7);
+    background-color: var(--colorePrincipale);
+    border: 2px solid #000000;
+    text-transform: capitalize;
+}
+
+li.fizz {
+    background-color: #0BD6A1;
+}
+
+li.buzz {
+    background-color: #FFD166;
+}
+
+li.fizzbuzz {
+    background-color: #F0466F;
+}
