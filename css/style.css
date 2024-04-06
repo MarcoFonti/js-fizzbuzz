@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-/* Recipiente dei li*/
+/* Recipiente dei li */
 #recipe-numbers {
     list-style: none;
     display: flex;
